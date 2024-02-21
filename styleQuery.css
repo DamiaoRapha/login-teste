@@ -21,6 +21,16 @@
             float: right;
             width: 70%;
         }
+
+        div.campo input {
+            background-color: #b6e7e6;
+            width: calc(100% - 47px);
+            height: 100%;
+            border-radius: 8px;
+            padding: 4px;
+            border: none;
+            transform: translateY(-3px);
+        }
 }
 
 @media  screen and (min-width: 992px) { /* VERSÃO GRANDES TELAS */
@@ -51,5 +61,15 @@
 
         section#login div#div-form p {
             font-size: 1.2em;
+        }
+
+        div.campo input {
+            background-color: #b6e7e6;
+            width: calc(100% - 47px);
+            height: 100%;
+            border-radius: 8px;
+            padding: 4px;
+            border: none;
+            transform: translateY(-3px);
         }
 }
