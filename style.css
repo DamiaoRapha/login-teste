@@ -55,11 +55,13 @@ main {
             section#login div#div-form h1 {
                 text-align: center;
                 margin-bottom: 10px;
+                color: #5f2c82;
             }
 
             section#login div#div-form p {
                 text-align: center;
                 font-size: 0.8em;
+                color: #5f2c82;
             }
 
 form div.campo {
@@ -73,18 +75,24 @@ form div.campo {
 
 div.campo span {
     color: white;
-    background-color: black;
+    /*background-color: black;*/
     width: 40px; 
     padding: 5px;
+    transform: translateY(3px);
 }
 
 div.campo input {
     background-color: #b6e7e6;
-    width: calc(100% - 45px);
+    width: calc(100% - 47px);
     transform: translateY(-3px);
     height: 100%;
     border-radius: 8px;
     padding: 4px;
+    border: none;
+}
+
+div.campo input:focus-within {
+    background-color: white;
 }
 
 div.campo label {display: none;}
