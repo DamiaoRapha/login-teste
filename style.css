@@ -27,7 +27,6 @@ main {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
         background-color: white;
         width: 250px;
         height: 500px;
@@ -35,6 +34,7 @@ main {
         overflow: hidden;
         box-shadow: 0px 0px 10px rgb(0, 0, 0);
         transition: width 0.3s, height 0.3s;
+        transform: translate(-50%,-50%);
     }
 
         section#login div#div-img {
@@ -84,11 +84,11 @@ div.campo span {
 div.campo input {
     background-color: #b6e7e6;
     width: calc(100% - 47px);
-    transform: translateY(-3px);
     height: 100%;
     border-radius: 8px;
     padding: 4px;
     border: none;
+    transform: translateY(-3px);
 }
 
 div.campo input:focus-within {
